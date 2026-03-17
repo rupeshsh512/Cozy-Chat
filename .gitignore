@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/react-chat-ui/node_modules/
+frontend/react-chat-ui/dist/
+frontend/react-chat-ui/dist-ssr/
+frontend/react-chat-ui/*.local
+frontend/react-chat-ui/.env
+
+# Backend
+backend/springboot-chat-server/target/
+backend/springboot-chat-server/.mvn/
+backend/springboot-chat-server/mvnw
+backend/springboot-chat-server/mvnw.cmd
+backend/springboot-chat-server/maven-portable/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

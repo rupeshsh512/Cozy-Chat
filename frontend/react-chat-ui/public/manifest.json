@@ -1,0 +1,16 @@
+{
+  "name": "Cozy Chat",
+  "short_name": "Cozy",
+  "description": "Full-stack real-time messaging platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0e14",
+  "theme_color": "#0b0e14",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

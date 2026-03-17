@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Cozy Chat</title>
+    <meta name="description" content="Local Network Messenger" />
+    <meta name="author" content="Cozy Chat" />
+    <script>
+      window.global = window;
+    </script>
+
+    <meta property="og:title" content="Cozy Chat" />
+    <meta property="og:description" content="Simple, beautiful real-time chat for local networks." />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0b0e14" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
